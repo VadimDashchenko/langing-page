@@ -107,6 +107,10 @@ body {
   max-width: 840px;
   height: 600px;
 }
+.header-section .news img {
+  object-fit: cover;
+  width: 100%;
+}
 .header-section .news__text-block {
   position: absolute;
   top: 227px;
@@ -224,6 +228,7 @@ body {
   color: #A6ADB4;
   font-size: 13px;
   margin-top: 12px;
+  font-family: acumin-pro, sans-serif;
 }
 .header-section .more-news__text-time img {
   margin-right: 10px;
@@ -238,7 +243,6 @@ body {
 .content-section .trends {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   justify-content: space-between;
   background-color: #F6F8F9;
   padding: 60px 140px;
@@ -278,6 +282,7 @@ body {
   border-radius: 6px;
   background-color: #ffffff;
   margin-bottom: 40px;
+  font-family: acumin-pro, sans-serif;
 }
 .content-section .trends__card-item img {
   object-fit: cover;
@@ -377,6 +382,9 @@ body {
   align-items: center;
   color: #CBD0D3;
   margin-top: 30px;
+  font-family: acumin-pro, sans-serif;
+  font-size: 13px;
+  line-height: 20px;
 }
 .content-section .posts__large-time img {
   margin-right: 10px;
@@ -394,6 +402,7 @@ body {
 .content-section .posts__small-img {
   margin-bottom: 20px;
   border-radius: 6px;
+  object-fit: cover;
 }
 .content-section .posts__small-title {
   font-family: acumin-pro, sans-serif;
@@ -449,6 +458,8 @@ body {
   line-height: 20px;
   color: #cbd0d3;
   margin-top: 0;
+  font-family: acumin-pro, sans-serif;
+  font-size: 13px;
 }
 .content-section .footer__list-items li:hover {
   cursor: pointer;
@@ -488,6 +499,7 @@ body {
   color: #CBD0D3;
   font-size: 11px;
   padding-top: 16px;
+  font-family: acumin-pro, sans-serif;
 }
 .content-section .footer__social {
   display: flex;
@@ -665,6 +677,7 @@ body {
   }
   .content-section .posts__large-background {
     width: 100%;
+    object-fit: cover;
     height: 300px;
   }
   .content-section .posts__large-descriptions {
@@ -674,40 +687,8 @@ body {
   .content-section .posts__large-text {
     margin-top: 56px;
   }
-  .content-section .posts__small {
-    display: flex;
-    flex-direction: column;
-  }
-  .content-section .posts__small-card {
-    display: flex;
-    flex-direction: column;
-    max-width: 360px;
-    margin-top: 40px;
-  }
   .content-section .posts__small-img {
-    margin-bottom: 20px;
-    border-radius: 6px;
-  }
-  .content-section .posts__small-title {
-    font-family: acumin-pro, sans-serif;
-    font-size: 16px;
-    line-height: 26px;
-    font-weight: bold;
-    color: #202124;
-  }
-  .content-section .posts__small-time {
-    font-size: 13px;
-    font-family: acumin-pro, sans-serif;
-    color: #A6ADB4;
-    display: flex;
-    align-items: center;
-    line-height: 26px;
-  }
-  .content-section .posts__small-time img {
-    margin-right: 10px;
-  }
-  .content-section .posts__small-time a {
-    color: #A6ADB4;
+    width: 100%;
   }
   .content-section .footer {
     display: flex;
